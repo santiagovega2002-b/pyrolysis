@@ -1,4 +1,5 @@
 Biomass Pyrolysis — Liquid Yield Prediction
+
 Qué es el proyecto
 
 Modelo de regresión para predecir el rendimiento líquido (Liquid phase, %) en pirólisis de biomasa lignocelulósica a partir de composición elemental, análisis próximo y variables de proceso.
