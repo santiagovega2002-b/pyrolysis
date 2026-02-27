@@ -11,7 +11,7 @@ Los datos
 
 Fuente: Kaggle — Biomass Pyrolysis Data
 https://www.kaggle.com/datasets/mustafakeser4/biomass-pyrolysis-data
-![Gráfico de Van Krevelen](image-2.png)
+![Gráfico de Van Krevelen](img/van_krevelen.png)
 
 Compilación basada en Dong et al. (Beijing Forestry University), revisión de múltiples estudios de pirólisis de biomasa lignocelulósica.
 
@@ -39,13 +39,13 @@ Modelo final — XGBoost
 Test R² = 0.879
 Test MAE = 2.560
 Train R² = 0.994
-![Predicho vs Real — XGBoost](image.png)
+![Predicho vs Real — XGBoost](img/predicho_vs_real.png)
 Validación cruzada (5 folds)
 R² promedio = 0.835 ± 0.033
 
 Features más importantes: VM (volatile matter), N (nitrógeno) y FC (fixed carbon).
 FR_disponible apareció en el top 5, validando su inclusión como variable de trazabilidad.
-![Importancia de los Features](image-1.png)
+![Importancia de los Features](img/importancia_features.png)
 
 El modelo no lineal capturó interacciones entre composición y condiciones de proceso que la regresión lineal no pudo representar adecuadamente.
 
