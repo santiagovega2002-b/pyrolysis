@@ -63,3 +63,12 @@ Orden recomendado de ejecución:
 
 El dataset limpio se exporta desde 02_cleaning.ipynb.
 El modelo final se entrena y guarda en 04_modeling.ipynb.
+
+
+Biomasa “óptima” — interpretación
+
+El modelo converge hacia una biomasa con H/C = 1.170, lo que químicamente implica mayor insaturación y carácter aromático, condición que en principio favorecería formación de char más que de bio-oil. Sin embargo, esa desventaja estructural se ve compensada por un VM = 78.1%, que incrementa la fracción susceptible de despolimerización primaria y generación de vapores condensables. La solución refleja una tensión fisicoquímica real: la composición elemental no es ideal para líquido, pero la alta fracción volátil domina el balance global de fases.
+
+La temperatura óptima estimada (557 °C) se ubica muy cerca del máximo teórico previamente calculado (568 °C) mediante un ajuste parabólico independiente. La convergencia de ambos enfoques constituye una validación cruzada robusta del rango térmico óptimo para maximizar líquidos.
+
+Es importante enfatizar que esta biomasa es una solución matemática dentro del espacio del modelo; no implica que exista en la naturaleza exactamente con esa combinación composicional. Debe interpretarse como una guía para diseño experimental y screening dirigido, no como una receta directa de formulación
